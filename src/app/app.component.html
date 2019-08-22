@@ -1,0 +1,6 @@
+<article class="app-container">
+  <span class="header-label">Laboratorio 2</span>
+  <ng-template ngFor let-listCard [ngForOf]="listCards">
+    <todo-card [listCards]="listCard"></todo-card>
+  </ng-template>
+</article>
